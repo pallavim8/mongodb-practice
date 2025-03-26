@@ -1,5 +1,5 @@
 from pymongo import MongoClient, errors
-from bson.json_util import dumps
+from bson.json_util import dumps #NEVER PUT BSON IN YOUR requirement.txt
 import os
 
 # mongohost should look something like 'mongodb+srv://cluster0.xxxxx.mongodb.net/'
